@@ -8,7 +8,7 @@ public class myCxfServerImpl implements  myCxfServer{
 
     @Override
     public String sayHello(String name) {
-        return "hello,"+name;
+        return "hello ,"+name;
     }
 
     @Override
