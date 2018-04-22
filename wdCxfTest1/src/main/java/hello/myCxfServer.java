@@ -6,4 +6,6 @@ import javax.jws.WebService;
 public interface myCxfServer {
 
     public String sayHello(String name);
+
+    public Double add(Double a,Double b);
 }
